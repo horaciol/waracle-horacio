@@ -23,6 +23,8 @@ export default function TabLayout() {
         tabBarActiveTintColor: Colors[colorScheme ?? "light"].tint,
         headerShown: useClientOnlyValue(false, true),
         tabBarStyle: { backgroundColor: "#011425", borderTopColor: "#011425" },
+        headerStyle: { backgroundColor: "#011425" },
+        headerTitleStyle: { color: "#FFFFFF" },
       }}
       initialRouteName="index"
     >
